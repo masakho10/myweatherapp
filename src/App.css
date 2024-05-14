@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('https://source.unsplash.com/1920x1080/?nature'); 
+  background-size: cover;
+  background-position: center;
+}
+
+.App {
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center;
+  height: 100vh;
+  padding-left: 20px; 
+}
+
+.weather-container {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: left; 
+}
+
+.weather-info {
+  margin-top: 20px;
+}
+
+.weather-info p {
+  margin: 5px 0;
+}
+
+.weather-info img {
+  margin-top: 10px;
+}
+
+.loading {
+  font-style: italic;
+  color: #888;
+}
+
+.cold .weather-container {
+  background-color: #0033cc; 
+}
+
+.hot .weather-container {
+  background-color: #cc0000; 
+}
+
+.normal .weather-container {
+  background-color: #666666; 
+}
+
+
+
+.App {
+  font-family: Arial, sans-serif;
+}
+
+.weather-container {
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.loading {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.weather-info {
+  margin-top: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th,
+table td {
+  text-align: right;
+}
+
+table td {
+  padding: 8px;
+
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+table td {
+  background-color: #fff;
+}
+
+h3 {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+}
+
+.coordinates-container {
+  margin-right: 50px; 
+  margin-left: auto; 
+}
+
+.coordinates-container table {
+  font-size: 13px; 
+  border-collapse: separate;
+  border-spacing: 1px;
+}
+
+.coordinates-container th,
+.coordinates-container td {
+  padding: 5px; 
+  border: 0.1px solid #ccc; 
+}
+
+
+
